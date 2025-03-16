@@ -29,6 +29,8 @@
     proto: PelletKineticSpread
     capacity: 1
     count: 1
+  - type: Gun
+    fireRate: 0.5
   - type: UpgradeableGun
     maxUpgradeCapacity: 60
     whitelist:
@@ -41,7 +43,7 @@
   - type: Item
     shape:
     - 0,0,4,0
-  
+
 - type: entity
   name: proto-kinetic repeater
   id: WeaponProtoKineticRepeater
