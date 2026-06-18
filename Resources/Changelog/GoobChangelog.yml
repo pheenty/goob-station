@@ -23520,3 +23520,15 @@ Entries:
       message: Hydrakins now get a Survival box for once
   id: 2700
   time: '2026-06-18T08:51:26.0000000+00:00'
+- author: pheenty
+  changes:
+    - type: Fix
+      message: >-
+        Fixed natural regen (below 20 damage) being like 10 times less effective
+        as it should've been.
+    - type: Tweak
+      message: >-
+        Slimes now have double natural regen speed again, and regenerate up to
+        **65** damage.
+  id: 2701
+  time: '2026-06-18T10:29:29.0000000+00:00'
