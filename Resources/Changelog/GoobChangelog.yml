@@ -23538,3 +23538,9 @@ Entries:
       message: Reptilian stealth suit sprites.
   id: 2702
   time: '2026-06-18T10:32:13.0000000+00:00'
+- author: lucapgiannotti
+  changes:
+    - type: Tweak
+      message: monkeys are blind while sleeping like other species!
+  id: 2703
+  time: '2026-06-19T03:12:09.0000000+00:00'
