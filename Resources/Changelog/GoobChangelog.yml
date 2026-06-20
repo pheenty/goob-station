@@ -23552,3 +23552,12 @@ Entries:
         are now reskins.
   id: 2704
   time: '2026-06-20T11:39:08.0000000+00:00'
+- author: Rouden
+  changes:
+    - type: Tweak
+      message: >-
+        Singulo knights, Derelict syndicate borgs, Greytides, Tunnel clowns,
+        Mime assassin, and some other midround roles now have playtime
+        requirements.
+  id: 2705
+  time: '2026-06-20T12:17:14.0000000+00:00'
