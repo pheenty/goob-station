@@ -23544,3 +23544,11 @@ Entries:
       message: monkeys are blind while sleeping like other species!
   id: 2703
   time: '2026-06-19T03:12:09.0000000+00:00'
+- author: RedTerror
+  changes:
+    - type: Tweak
+      message: >-
+        Now all Chaplain armor sets have the SAME stats. Different armor sets
+        are now reskins.
+  id: 2704
+  time: '2026-06-20T11:39:08.0000000+00:00'
