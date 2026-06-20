@@ -23561,3 +23561,14 @@ Entries:
         requirements.
   id: 2705
   time: '2026-06-20T12:17:14.0000000+00:00'
+- author: RedTerror
+  changes:
+    - type: Tweak
+      message: >-
+        Chaplain Grey Emperor's Glove Buff: welding add to the list of tools.
+        The attack range has been increased to 3 tiles, and attacks cannot be
+        performed by right-clicking.
+    - type: Tweak
+      message: All Grey Emperor's Glove sounds have been replaced with finger snaps
+  id: 2706
+  time: '2026-06-20T12:17:57.0000000+00:00'
