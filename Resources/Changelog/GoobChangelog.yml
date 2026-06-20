@@ -23572,3 +23572,13 @@ Entries:
       message: All Grey Emperor's Glove sounds have been replaced with finger snaps
   id: 2706
   time: '2026-06-20T12:17:57.0000000+00:00'
+- author: RedTerror
+  changes:
+    - type: Tweak
+      message: >-
+        Chaplain Chain sword Buff: activation speed 5s -> 1.5s, cooldown 3
+        minutes -> 2 minutes, duration 10s -> 20s.
+    - type: Tweak
+      message: Chaplain Chain sword cannot be dropped while active
+  id: 2707
+  time: '2026-06-20T12:18:31.0000000+00:00'
