@@ -607,6 +607,7 @@
           - Vox
           - Yowie # Goobstation - Yowie
           - XenobioSlime # Goobstation - XenobioSlime
+          - Hydrakin # Fuck you
           inverted: true
         type: Local
         visualType: MediumCaution
@@ -622,6 +623,7 @@
           - Plant
           - Yowie # Goobstation - Yowie
           - XenobioSlime # Goobstation - XenobioSlime
+          - Hydrakin # Fuck you
           inverted: true
       - !type:HealthChange
         conditions:
@@ -632,6 +634,7 @@
           - Plant
           - Yowie # Goobstation - Yowie
           - XenobioSlime # Goobstation - XenobioSlime
+          - Hydrakin # Fuck you
           inverted: true
         damage:
           types:
@@ -653,6 +656,12 @@
         conditions:
         - !type:MetabolizerTypeCondition # Goobstation - XenobioSlime
           type: [ XenobioSlime ]
+        reagent: Protein
+        amount: 0.5
+      - !type:AdjustReagent # Mono - Hydrakin
+        conditions:
+        - !type:OrganType
+          type: Hydrakin
         reagent: Protein
         amount: 0.5
       - !type:AdjustReagent

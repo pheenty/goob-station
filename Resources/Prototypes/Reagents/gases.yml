@@ -100,7 +100,7 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Human, Animal, Rat, Plant,
-                  Feroxi]  # DeltaV - Feroxi Still need to breathe
+                  Feroxi, Hydrakin]  # DeltaV - Feroxi Still need to breathe # fuck hydrakin
       # Convert Oxygen into CO2.
       - !type:ModifyLungGas
         conditions:
@@ -205,10 +205,6 @@
             Poison: 1.5
     Gas:
       effects:
-      - !type:Oxygenate # Mono - Hydrakin
-        conditions:
-        - !type:MetabolizerTypeCondition # Fuck you
-          type: [Hydrakin]
       - !type:HealthChange
 # Goobstation start
         conditions:
@@ -245,6 +241,11 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Plasmaman ]
+      - !type:Oxygenate # Mono - Hydrakin
+        factor: 4
+        conditions:
+        - !type:MetabolizerTypeCondition # fuck you
+          type: [ Hydrakin ]
       - !type:ModifyLungGas
         conditions:
         - !type:MetabolizerTypeCondition
@@ -438,7 +439,8 @@
         - !type:MetabolizerTypeCondition
           type:
           - Plant
-          - Cybernetic # Shitmed - Cybernetic Organs
+          - Cybernetic # Shitmed - Cybernetic Organs3
+          - Hydrakin # fuck you
           inverted: true
         factor: -4
       # We need a metabolism effect on reagent removal
@@ -551,6 +553,16 @@
           type:
           - Slime
           - Cybernetic # Shitmed - Cybernetic Organs
+          - Hydrakin # Fuck you
+          inverted: true
+        - !type:BloodReagentThresholdCondition #  Assmos - /tg/ gases
+          reagent: NitrousOxide
+          min: 0.5
+        - !type:MetabolizerTypeCondition
+          type:
+          - Slime
+          - Cybernetic # Shitmed - Cybernetic Organs
+          - Hydrakin # Fuck you
           inverted: true
         - !type:BloodReagentThresholdCondition #  Assmos - /tg/ gases
           reagent: NitrosylPlasmide
@@ -658,7 +670,7 @@
 # Goobstation start
         conditions:
         - !type:MetabolizerTypeCondition # Goobstation - Yowie
-          type: [ Yowie ]
+          type: [ Yowie, Hydrakin ] # Hydrakin
         damage:
           groups:
             Brute: -1
