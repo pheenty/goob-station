@@ -23598,3 +23598,9 @@ Entries:
       message: Desoxypehedrine OD poison 2 > 2.75
   id: 2709
   time: '2026-06-21T13:12:48.0000000+00:00'
+- author: UmbiMax
+  changes:
+    - type: Fix
+      message: Emitter projectiles no longer pass through the supermatter crystal.
+  id: 2710
+  time: '2026-06-21T13:55:57.0000000+00:00'
