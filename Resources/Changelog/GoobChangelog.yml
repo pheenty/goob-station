@@ -23590,3 +23590,11 @@ Entries:
         threats.
   id: 2708
   time: '2026-06-21T13:10:29.0000000+00:00'
+- author: Beanyboi69
+  changes:
+    - type: Tweak
+      message: Desoxypehedrine poison 0.75 > 2
+    - type: Tweak
+      message: Desoxypehedrine OD poison 2 > 2.75
+  id: 2709
+  time: '2026-06-21T13:12:48.0000000+00:00'
