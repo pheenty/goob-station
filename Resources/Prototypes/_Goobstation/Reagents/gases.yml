@@ -145,9 +145,10 @@
             Poison: 2.5
       - !type:HealthChange # Mono
         conditions:
-        - !type:OrganType
-          type: Hydrakin
-        - !type:ReagentThreshold
+        - !type:MetabolizerTypeCondition
+          type:
+          - Hydrakin # Go fuck yourself
+        - !type:ReagentCondition
           reagent: BZ
           min: 0.5
         damage:
@@ -441,7 +442,7 @@
         conditions:
         - !type:MetabolizerTypeCondition # Fuck you
           type: [Hydrakin]
-          inverted: true        
+          inverted: true
         - !type:ReagentCondition
           reagent: Nitrium
           min: 6

@@ -660,8 +660,9 @@
         amount: 0.5
       - !type:AdjustReagent # Mono - Hydrakin
         conditions:
-        - !type:OrganType
-          type: Hydrakin
+        - !type:MetabolizerTypeCondition
+          type:TR
+          - Hydrakin # Go fuck yourself
         reagent: Protein
         amount: 0.5
       - !type:AdjustReagent
