@@ -85,9 +85,7 @@
           inverted: true
         damage:
           types:
-            Poison: 0.55
-            Blunt: 0.5
-      # OD
+            Poison: 2 # Goobstation
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition
@@ -98,7 +96,7 @@
           inverted: true
         damage:
           types:
-            Poison: 3 # this is added to the base damage of the meth.
+            Poison: 2.75 # this is added to the base damage of the meth. // Goobstation +0.75  damage
             Asphyxiation: 2
     Narcotic:
       effects:
