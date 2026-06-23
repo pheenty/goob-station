@@ -661,6 +661,7 @@
       - !type:AdjustReagent # Mono - Hydrakin
         conditions:
         - !type:MetabolizerTypeCondition
+          type:
           - Hydrakin # Go fuck yourself
         reagent: Protein
         amount: 0.5
