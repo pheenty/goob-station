@@ -23616,3 +23616,15 @@ Entries:
       message: Fixed Artifact crusher spawning too much fragments.
   id: 2712
   time: '2026-06-26T19:27:30.0000000+00:00'
+- author: Beanyboi69
+  changes:
+    - type: Remove
+      message: removed healing values from nutriment
+    - type: Tweak
+      message: increased vitamin and protein healing
+    - type: Tweak
+      message: reduced amount of nutriment in nutribricks
+    - type: Fix
+      message: fixed cocoa powder not being toxic to animals
+  id: 2713
+  time: '2026-07-02T12:58:43.0000000+00:00'
